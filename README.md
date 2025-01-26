@@ -37,8 +37,8 @@ The necessary packages will be installed automatically in Google Colab when runn
 2. Upload the Datasets:
 
     Download the datasets from this repository:
-        dataset_1.csv
-        dataset_2.csv
+        Google_Stock_price_Train.csv
+        Google_Stock_price_Test.csv
     Upload the datasets to your Colab environment.
 
 3. Run the Notebook:
@@ -52,12 +52,13 @@ The necessary packages will be installed automatically in Google Colab when runn
     You can visualize the predictions and compare them with the actual values in the dataset.
 
 📂 File Structure
-google-stock-prediction/
-│
-├── Google_Stock_Price_Train.csv   # Training dataset with historical stock prices
-├── Google_Stock_Price_Test.csv    # Testing dataset with stock prices for prediction
-├── StockPrediction.ipynb         # Jupyter notebook for stock price prediction
-└── README.md                     # Project description
+
+    google-stock-prediction/
+    │
+    ├── Google_Stock_Price_Train.csv   # Training dataset with historical stock prices
+    ├── Google_Stock_Price_Test.csv    # Testing dataset with stock prices for prediction
+    ├── StockPrediction.ipynb         # Jupyter notebook for stock price prediction
+    └── README.md                     # Project description
 
 📊 Project Results
 
