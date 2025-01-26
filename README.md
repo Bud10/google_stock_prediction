@@ -10,11 +10,11 @@ This project aims to predict the stock prices of Google based on historical data
 The code leverages datasets containing historical stock price information to train the model and predict future stock prices.
 Datasets:
 
-    Dataset 1: [/Description]
+    Dataset 1: [https://github.com/Bud10/google_stock_prediction/blob/master/Google_Stock_Price_Train.csv/Description]
     This dataset contains historical stock prices of Google, including features like Open, Close, Volume, etc.
 
-    Dataset 2: [Dataset Name/Description]
-    This dataset contains additional data, such as market trends, news sentiment analysis, or economic indicators, that might help in predicting the stock price.
+    Dataset 2: [Google_Stock_Price_Test.csv/Description]
+    This dataset contains additional data, which shows the real future stock price of google that help in testing the stock price predicted by the model.
 
 🔧 Requirements
 
@@ -50,6 +50,14 @@ The necessary packages will be installed automatically in Google Colab when runn
 
     Once the model is trained, you can use it to predict future stock prices for Google.
     You can visualize the predictions and compare them with the actual values in the dataset.
+
+📂 File Structure
+google-stock-prediction/
+│
+├── Google_Stock_Price_Train.csv   # Training dataset with historical stock prices
+├── Google_Stock_Price_Test.csv    # Testing dataset with stock prices for prediction
+├── StockPrediction.ipynb         # Jupyter notebook for stock price prediction
+└── README.md                     # Project description
 
 📊 Project Results
 
